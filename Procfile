@@ -1,1 +1,1 @@
-web: gunicorn ancient-ocean-31501:app --log-file -
+web: gunicorn app:app --log-file -
